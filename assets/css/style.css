@@ -87,12 +87,14 @@ p{
     
     }
 
+    
+
     .button-border{
         border-color: #ddddddd2;
        
     }
 
-footer{
+.portfolio-footer{
     position: relative !important;
     bottom:0px;
 }
