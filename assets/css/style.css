@@ -1,0 +1,102 @@
+/* styling for items common to all pages */
+
+.logo{
+    background: #4aaaa5;
+    font-family: 'Montez', cursive;
+    font-size: 30pt;
+    
+}
+
+.header-border-bottom{
+    border-bottom: 2px solid #cccccc !important ;
+}
+.navbar-container{
+    max-width: 985px;
+
+}
+
+body{
+
+    background-image: url(../images/light-grey.png);
+
+}
+.copyright-text{
+
+    background: #666666;
+    color:  #ffffff;
+    
+}
+.border-teal{
+    border-top: 5px solid #4aaaa5 !important ;
+}
+
+/* index page styling */
+
+.main-section{
+    background: #ffffff;
+    max-width: 960px;
+}
+
+.border-light-grey{
+    border: 2px solid #dddddd !important ;
+}
+.img-thumbnail{
+    border: none;
+}
+
+h1{
+    color:#4aaaa5;
+    font-family: 'Montez', cursive;
+    font-size: 30pt;
+    font-weight: bolder;
+}
+
+p{
+    line-height: 2.5em;
+    color: #777777;
+}
+
+.main-section-inside-border{
+    border-bottom:3px solid #dddddd !important ;
+}
+
+/* contact page */
+.button-background{
+    background: #4aaaa5;
+}
+
+/* portfolio page */
+.card-background{
+    background: #4aaaa5 !important;
+    position: absolute;
+    bottom: 15%;
+    left: 1rem;
+    right:1rem;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.card-border{
+    border:none;
+}
+
+@media only screen and (max-width: 640px) {
+
+    .navbar-container{
+        background: #4aaaa5;
+    
+    }
+
+    .button-border{
+        border-color: #ddddddd2;
+       
+    }
+
+footer{
+    position: relative !important;
+    bottom:0px;
+}
+
+ 
+}
+
