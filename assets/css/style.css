@@ -30,6 +30,9 @@ body{
     border-top: 5px solid #4aaaa5 !important ;
 }
 
+.navbar-nav{
+    flex-direction: row;
+}
 /* index page styling */
 
 .main-section{
@@ -87,6 +90,11 @@ p{
     
     }
 
+    .nav-link{
+        color: #ffffff !important;
+        font-size: 1.2em;
+    }
+
     
 
     .button-border{
@@ -94,11 +102,30 @@ p{
        
     }
 
-.portfolio-footer{
-    position: relative !important;
-    bottom:0px;
-}
+
 
  
+}
+
+@media only screen and (max-width:575px){
+
+    .logo{
+        margin: auto;
+    }
+
+    .navbar-nav{
+        margin:auto;
+    }
+
+
+    .portfolio-footer{
+         position: relative !important;
+         bottom:0px;
+ }
+
+    .index-footer{
+        position: relative !important;
+        bottom:0px;
+}
 }
 
