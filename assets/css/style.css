@@ -79,10 +79,31 @@ p{
     text-align: center;
 }
 
+/* #main-section-portfolio{
+    padding-bottom
+} */
+
 .card-border{
     border:none;
 }
 
+.portfolio-footer{
+    position: relative;
+    bottom: 0%;
+}
+a:link {
+    color:  #ffffff;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #cccccc;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #cccccc;
+  }
 @media only screen and (max-width: 640px) {
 
     .navbar-container{
